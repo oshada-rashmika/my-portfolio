@@ -298,6 +298,17 @@ const COMPETITIONS: Competition[] = [
     color: "#ef4444",
     icon: Target
   }
+  ,
+  {
+    id: 5,
+    title: "Top 5",
+    event: "Battle of Multiverse'26: Sri Lanka's first ever Inter-continental CTF",
+    organizer: "LNBTI Japanese University",
+    placement: "🏆",
+    year: "2026",
+    color: "#06b6d4",
+    icon: Trophy
+  }
 ];
 
 // --- CHAPTER CARD COMPONENT ---
