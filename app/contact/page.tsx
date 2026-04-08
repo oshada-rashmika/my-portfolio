@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from "framer-motion";
-import { Github, Linkedin, Facebook, Instagram, Mail, MessageCircle, ArrowUpRight, Copy, Check, ArrowLeft, Volume2, VolumeX } from "lucide-react";
+import { GitCommit, Users, Globe, Image, Mail, MessageCircle, ArrowUpRight, Copy, Check, ArrowLeft, Volume2, VolumeX } from "lucide-react";
 
 // JJK-themed social items with cursed technique names
 interface SocialItem {
@@ -30,7 +30,7 @@ const SOCIALS: SocialItem[] = [
     technique: "BINDING_VOW",
     value: "/in/oshada-rodrigo",
     link: "https://linkedin.com/in/oshada-rodrigo",
-    icon: <Linkedin size={22} />,
+    icon: <Users size={22} />,
   },
   {
     id: "github",
@@ -38,7 +38,7 @@ const SOCIALS: SocialItem[] = [
     technique: "DOMAIN_EXPANSION",
     value: "@oshada-rashmika",
     link: "https://github.com/oshada-rashmika",
-    icon: <Github size={22} />,
+    icon: <GitCommit size={22} />,
   },
   {
     id: "instagram",
@@ -46,7 +46,7 @@ const SOCIALS: SocialItem[] = [
     technique: "SIX_EYES",
     value: "@vxl3.r0",
     link: "https://instagram.com/vxl3.r0",
-    icon: <Instagram size={22} />,
+    icon: <Image size={22} />,
   },
   {
     id: "facebook",
@@ -54,7 +54,7 @@ const SOCIALS: SocialItem[] = [
     technique: "LIMITLESS",
     value: "Damien Vale",
     link: "https://facebook.com/v0idvelour",
-    icon: <Facebook size={22} />,
+    icon: <Globe size={22} />,
   },
   {
     id: "email",
